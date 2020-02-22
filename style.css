@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-size: 3rem;
+    margin-top: 6rem;
+    color: darkcyan;
+}
+
+#autocomplete {
+    width: 50%;
+    font-family: 'Raleway';
+    font-size: large;
+    padding: 0.65rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.btn {
+    margin-top: 2.5rem;
+    font-family: 'Raleway';
+    color: white;
+    background-color: darkcyan;
+    padding: 0.5rem;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}
+
+.autocomplete-list {
+    font-family: 'Raleway';
+    text-align: left;
+    font-size: medium;
+    margin: 0 auto;
+    width: 50%;
+    max-height: 35vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.autocomplete-item {
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.autocomplete-item:hover {
+    background-color: whitesmoke;
+
+}
+
+p {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    color: gray;
+}
+
+/* .autocomplete-list::-webkit-scrollbar {
+    color: lightgray;
+} */
+
+strong {
+    color: darkcyan;
+}
